@@ -1,0 +1,25 @@
+{
+  "name": "webpack_start_point",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "mocha": "^2.4.5",
+    "webpack": "^2.2.0"
+  },
+  "scripts": {
+    "build": "webpack -w",
+    "start": "node server.js",
+    "test": "mocha client/specs"
+  },
+  "author": "",
+  "license": "ISC"
+}

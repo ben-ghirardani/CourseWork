@@ -1,0 +1,13 @@
+ul{
+    margin: 0 auto;
+    text-align: left;
+}
+
+li{
+    vertical-align: top;
+    margin: 60px;
+}
+
+#food-pairings{
+    text-align: right;
+}

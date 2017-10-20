@@ -1,0 +1,12 @@
+html{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+  width: 800px;
+  display: flex;
+}
+
+img {
+  width: 300px;
+}
